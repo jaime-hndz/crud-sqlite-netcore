@@ -133,7 +133,13 @@ namespace Tarea4
 
             Database DataObjeto = new Database();
 
-            string consulta = @"INSERT INTO PERSONAS VALUES (@cedula,@nombre,@apellido,@direccion,@telefono,@latitud,@longitud,@descripcion)";
+            string consulta = @"UPDATE PERSONAS SET nombre  = @nombre,
+                                        apellido = @apellido,
+                                        direccion = @direccion,
+                                        telefono = @telefono,
+                                        latitud = @latitud,
+                                        longitud = @longitud,
+                                        descripcion  = @descripcion WHERE cedula = "+cedula;
             SQLiteCommand comando = new SQLiteCommand(consulta, DataObjeto.conexion);
             DataObjeto.OpenConnection();
             comando.Parameters.AddWithValue("@cedula", cedula);
@@ -146,7 +152,7 @@ namespace Tarea4
             comando.Parameters.AddWithValue("@descripcion", descripcion);
             var resultado = comando.ExecuteNonQuery();
 
-            Console.Write($"Se han agregado {resultado} registros");
+            Console.Write($"Se han actualizado {resultado} registros");
 
             DataObjeto.CloseConnection();
 
