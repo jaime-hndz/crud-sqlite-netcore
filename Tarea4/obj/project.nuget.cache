@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "z+dojt5MmVjBN88tsH0F0tlkO7gXIoVehwUjZXYzDDJkgAI9/XGmnfr5kpgW6oC4eh9ZLj4sDiSMAdCeiDAboQ==",
+  "dgSpecHash": "vYDYjAPDzOxY5Yp5airZ6Ie3cY6Lz6+E1xkiwSR+/QPnFHzW9aY7rKL7ynx0CG321M9GP7cxWiA6E40mYFkg7Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\K3D\\Documents\\Apps\\Tarea4\\Tarea4\\Tarea4.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\K3D\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\K3D\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\K3D\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\K3D\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\K3D\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
     "C:\\Users\\K3D\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\K3D\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
